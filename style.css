@@ -292,7 +292,7 @@ border-width: 0;
 .card_link {
     display: block;
     width: 250px;
-    background-color: yellow;
+    background-color: red;
     padding: 10px;
 }
 
