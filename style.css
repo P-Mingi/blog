@@ -262,9 +262,26 @@ border-width: 0;
     gap: 20px;
 }
 
-.hot_left_page_cube {
+.hot_left_page_cube_1 {
     
-    border: 1px solid red;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: red;
+    height: 240px;
+    width: 245px;
+}
+
+.hot_left_page_cube_2 {
+    
+    border: 1px solid rgb(0, 0, 0);
+    background-color: blue;
+    height: 240px;
+    width: 245px;
+}
+
+.hot_left_page_cube_3 {
+    
+    border: 1px solid rgb(0, 0, 0);
+    background-color: green;
     height: 240px;
     width: 245px;
 }
@@ -277,28 +294,29 @@ border-width: 0;
     gap: 5px;
 }
 
-.hot_left_number_cube {
-    border: 1px solid black;
-    padding: 2px 4px;
+
+
+
+
+
+
+#div1 {
+   
+    display: flex;
+    gap: 20px;
+}
+
+#div2 {
+    display: none;
+    gap: 20px;
+}
+
+#div3 {
+    display: none;
+    gap: 20px;
 }
 
 
 
 
 
-
-
-
-.card_link {
-    display: block;
-    width: 250px;
-    background-color: red;
-    padding: 10px;
-}
-
-.card_image{
-    width: 100%;
-    aspect-ratio: 1/1;
-    object-fit: cover;
-
-}
