@@ -1,0 +1,304 @@
+/** DEFAULT PARAMETERS OF THE CSS * */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sr-only {
+position: absolute;
+width: 1px;
+height: 1px;
+padding: 0;
+margin: -1px;
+overflow: hidden;
+clip: rect(0, 0, 0, 0);
+white-space: nowrap;
+border-width: 0;
+}
+
+/* * Default classes * */
+
+.flex {
+    display: flex;
+}
+
+
+
+/* * Header * */
+
+
+.main {
+    position: relative; 
+    min-width: 1110px; 
+    min-height: 100%; 
+    padding-bottom: 129px;
+}
+
+
+.header {
+    z-index: 60;
+    display: block;
+}
+
+.header_first{
+    height: 54px;
+    background-color: rgb(38, 235, 130);
+    border-bottom: 0.2px solid black;
+    color: #fff;
+}
+
+.header_first .header_first_inner, .hot_topic .hot_topic_inner{
+    position: relative;
+    height: 100%;
+
+    width: 1110px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header_first .header_first_inner .area_logo h1 {
+    float: left;
+    margin: 8px 0;
+    overflow: hidden;
+}
+
+.header_first .header_first_inner .area_logo .link_logo{
+    float: left;
+    color: #fff;
+    width: 26px;
+    height: 26px;
+    padding: 4px;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/019/956/195/non_2x/netflix-transparent-netflix-free-free-png.png");
+    background-repeat: no-repeat;
+}
+
+.header_first .header_first_inner .area_logo .link_title{
+    float: left;
+    color: #fff;
+    font-size: 20px;
+    padding: 4px;
+}
+
+.header_first .header_first_inner .area_research {
+    float: left;
+    margin: 8px 0 0 8px;
+}
+
+.header_first .header_first_inner .area_research form fieldset{
+    border: 0;
+}
+.header_first .header_first_inner .area_research form fieldset .search {
+    position: relative;
+    float: left; 
+    width: 322px; 
+    height: 37px;
+    border: 1px solid black;
+    background-color: #fff;
+    border-right:0; 
+    color:#fff;
+}
+
+.header_first .header_first_inner .area_research form fieldset .search_btn {
+    float: left; 
+    height: 37px;
+    background-color: #03b150; 
+    border: 1px solid #05ab4f;
+    text-align: center;
+
+    width: 36px;
+    line-height: 35px;
+    color: #fff;
+    border: 1px solid black;
+}
+
+.header_first .header_first_inner .area_menu {
+    position: absolute;
+    right: 15px;
+}
+
+.area_menu_inner ul li {
+    display: inline-block;
+    margin: 13.5px ;
+}
+
+.area_menu_inner ul #li1 {
+    padding:4px 8px 0 8px;
+    height: 25px;
+    border: 0.1px solid rgb(90, 90, 90);
+}
+
+.area_menu_inner ul #li1 a, .area_menu_inner ul #li2 a{
+    font-size: 13px;
+    color: #fff;
+}
+
+.area_menu_inner ul #li2 {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header_second{
+    height: 40px;
+    background-color: rgb(185, 246, 213);
+    border-bottom: 0.2px solid black;
+}
+
+.header_second_inner{
+    width: 1110px;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header_second_inner .area_navigation .item{
+    position: relative;
+    float: left;
+    padding: 0 10px;
+    margin-left: -6px;
+    height: 40px;
+    line-height:40px;
+    font-size: 13px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.header_second_inner #bar{
+    margin: 12.5px 15px 0 5px;
+    float: left;
+    position: relative;
+    width: 1px;
+    height: 15px;
+    border: 0.5px solid black;
+
+}
+
+.header_second_inner .area_bonus .item{
+    position: relative;
+    float: right;
+    padding: 0 10px;
+    margin: 5px 0 0 8px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 13px;
+    text-decoration: none;
+    color: #000000;
+    border: 0.2px solid black;
+}
+
+.header_second_inner .area_bonus #color_btn{
+    background-color: #03b150; 
+    border: 1px solid #05ab4f;
+    color: #fff;
+}
+
+
+
+
+/* * Bandeau Hot Topic * */
+
+
+.hot_topic {
+    position: relative;
+    height: 300px;
+    border: 1px solid red;
+}
+
+.hot_topic .hot_topic_inner{
+    position: relative;
+    height: 100%;
+    width: 1110px;
+    margin: 0 auto;
+    padding: 5px 15px;
+}
+
+
+.hot_topic .hot_left {
+    position: relative;
+    float: left;
+    width: 770px;
+    /*border: 1px solid blueviolet;*/
+}
+
+.hot_topic .hot_right {
+    position: relative;
+    float: right;
+    width: 240px;
+    height: 100%;
+    border: 1px solid pink;
+}
+
+.hot_topic .hot_left .hot_left_position {
+    height: 20px;
+    margin-bottom: 20px;
+    line-height: 40px;
+    
+}
+
+.hot_topic .hot_left .hot_left_position h3 {
+    display: inline-block;
+    margin-right: 2.5px;
+    color: #03b150;
+}
+
+.hot_topic .hot_left .hot_left_position a {
+    color: #000000; 
+    font-size: 13px;  
+    margin-right: 2.5px;
+}
+
+.hot_left_page {
+    display: flex;
+    gap: 20px;
+}
+
+.hot_left_page_cube {
+    
+    border: 1px solid red;
+    height: 240px;
+    width: 245px;
+}
+
+.hot_left_number {
+    position: absolute;
+    display: flex;
+    top: 13px;
+    right: 0;
+    gap: 5px;
+}
+
+.hot_left_number_cube {
+    border: 1px solid black;
+    padding: 2px 4px;
+}
+
+
+
+
+
+
+
+
+.card_link {
+    display: block;
+    width: 250px;
+    background-color: yellow;
+    padding: 10px;
+}
+
+.card_image{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+
+}
