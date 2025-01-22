@@ -15,16 +15,10 @@
         <div id="div3"></div>
     </div>
 
-
-
     <button onclick="myFunction1()" id="button1">button1</button>
     <button onclick="myFunction2()" id="button2">button2</button>
-    <button  onclick="myFunction3()" id="button3">button3</button>
+    <button onclick="myFunction3()" id="button3">button3</button>
     
-
-
-
-
 
     <script>
 
@@ -44,7 +38,7 @@
         var btn3 = document.getElementById("button3")
 
         var btnstyle1 = document.getElementById("button1");
-       /* btnstyle1.classList.toggle("btnstyle1");*/
+        btnstyle1.style.backgroundColor = 'red'
 
         var btnstyle2 = document.getElementById("button2");
         
@@ -65,11 +59,14 @@
           if (x.style.display === "block") {
             y.style.display = "none";
             z.style.display = "none";
+            
           } else{
             x.style.display = "block";
             y.style.display = "none";
             z.style.display = "none";
-            
+            btnstyle1.style.backgroundColor = 'red'
+            btnstyle2.style.backgroundColor = 'white'
+            btnstyle3.style.backgroundColor = 'white'
           }
 
         }
@@ -77,7 +74,6 @@
         function myFunction2() {
 
           if (y.style.display === "block") {
-
             x.style.display = "none";
             z.style.display = "none";
       
@@ -85,6 +81,9 @@
             y.style.display = "block";
             x.style.display = "none";
             z.style.display = "none";
+            btnstyle1.style.backgroundColor = 'white'
+            btnstyle2.style.backgroundColor = 'red'
+            btnstyle3.style.backgroundColor = 'white'
           }
         }
 
@@ -98,9 +97,11 @@
             z.style.display = "block";
             x.style.display = "none";
             y.style.display = "none";
+            btnstyle1.style.backgroundColor = 'white'
+            btnstyle2.style.backgroundColor = 'white'
+            btnstyle3.style.backgroundColor = 'red'
           }
         }
-
     </script>
     
 </body>
