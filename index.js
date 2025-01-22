@@ -31,7 +31,7 @@ function topicFunction1() {
     btnstyle1.style.backgroundColor = 'red'
     btnstyle2.style.backgroundColor = 'white'
     btnstyle3.style.backgroundColor = 'white'
-    topicTitle.innerHTML = "Swapped text!"
+    topicTitle.innerHTML = "Housing"
   }
 
 }
@@ -48,7 +48,7 @@ function topicFunction2() {
     btnstyle1.style.backgroundColor = 'white'
     btnstyle2.style.backgroundColor = 'red'
     btnstyle3.style.backgroundColor = 'white'
-    topicTitle.innerHTML = "Funny storys!"
+    topicTitle.innerHTML = "Funny story"
   }
 }
 
@@ -64,6 +64,6 @@ function topicFunction3() {
     btnstyle1.style.backgroundColor = 'white'
     btnstyle2.style.backgroundColor = 'white'
     btnstyle3.style.backgroundColor = 'red'
-    topicTitle.innerHTML = "Morning routine!"
+    topicTitle.innerHTML = "Morning routine"
   }
 }
