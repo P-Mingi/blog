@@ -48,7 +48,7 @@ function topicFunction2() {
     btnstyle1.style.backgroundColor = 'white'
     btnstyle2.style.backgroundColor = 'red'
     btnstyle3.style.backgroundColor = 'white'
-    topicTitle.innerHTML = "lalaa!"
+    topicTitle.innerHTML = "Funny storys!"
   }
 }
 
@@ -64,6 +64,6 @@ function topicFunction3() {
     btnstyle1.style.backgroundColor = 'white'
     btnstyle2.style.backgroundColor = 'white'
     btnstyle3.style.backgroundColor = 'red'
-    topicTitle.innerHTML = "zovubvizbviz!"
+    topicTitle.innerHTML = "Morning routine!"
   }
 }
