@@ -227,22 +227,13 @@ border-width: 0;
     position: relative;
     float: left;
     width: 770px;
-    /*border: 1px solid blueviolet;*/
 }
 
-.hot_topic .hot_right {
-    position: relative;
-    float: right;
-    width: 240px;
-    height: 100%;
-    border: 1px solid pink;
-}
 
 .hot_topic .hot_left .hot_left_position {
     height: 20px;
     margin-bottom: 20px;
     line-height: 40px;
-    
 }
 
 .hot_topic .hot_left .hot_left_position h3 {
@@ -263,7 +254,6 @@ border-width: 0;
 }
 
 .hot_left_page_cube_1 {
-    
     border: 1px solid rgb(0, 0, 0);
     background-color: red;
     height: 240px;
@@ -294,28 +284,70 @@ border-width: 0;
     gap: 5px;
 }
 
+.hot_left_number button{
+    padding: 1px 4px;
+    border-radius: 0;
+    border: 1px solid rgba(221, 221, 223, 0.8);
+    background-color: #fff;
+}
 
-
-
-
-
-
-#div1 {
-   
+#div1, #div4 {
     display: flex;
     gap: 20px;
 }
 
-#div2 {
+#div2, #div5 {
     display: none;
     gap: 20px;
 }
 
-#div3 {
+#div3, #div6{
     display: none;
     gap: 20px;
 }
 
+.hot_topic .hot_right {
+    position: block;
+    float: right;
+    margin-top: 40px;
+}
+
+.hot_right_page_cube_1 {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: green;
+    height: 240px;
+    width: 245px;
+}
+
+.hot_right_page_cube_2 {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: blue;
+    height: 240px;
+    width: 245px;
+}
+
+.hot_right_page_cube_3 {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: red;
+    height: 240px;
+    width: 245px;
+    margin-left: 30px;
+}
+
+.hot_right_number {
+    position: absolute;
+    display: flex;
+    top: 20px;
+    right: 18px;
+    gap: 5px;
+}
+
+.hot_right_number button{
+    padding: 1px 4px;
+    border-radius: 0;
+    border: 1px solid rgba(221, 221, 223, 0.8);
+    background-color: #fff;
+}
 
 
 
