@@ -309,6 +309,7 @@ border-width: 0;
 .hot_topic .hot_right {
     position: block;
     float: right;
+    width: 280px;
     margin-top: 40px;
 }
 
@@ -317,6 +318,7 @@ border-width: 0;
     background-color: green;
     height: 240px;
     width: 245px;
+    margin-left: 35px;
 }
 
 .hot_right_page_cube_2 {
@@ -324,6 +326,7 @@ border-width: 0;
     background-color: blue;
     height: 240px;
     width: 245px;
+    margin-left: 35px;
 }
 
 .hot_right_page_cube_3 {
@@ -331,7 +334,7 @@ border-width: 0;
     background-color: red;
     height: 240px;
     width: 245px;
-    margin-left: 30px;
+    margin-left: 35px;
 }
 
 .hot_right_number {
@@ -352,3 +355,40 @@ border-width: 0;
 
 
 
+/* * Layout Content * */
+
+.layout_content {
+    width: 1110px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/*? Main content ?*/ 
+
+.content {
+    float: left;
+    width: 770px;
+    border: 1px solid red;
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+.inner_content {
+
+}
+
+.friend_content
+
+
+
+
+
+/*? Asside  ?*/ 
+
+.asside {
+    float: right;
+    width: 280px;
+    margin: 20px 0;
+    border: 1px solid green;
+}
