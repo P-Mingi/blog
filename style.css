@@ -404,15 +404,32 @@ border-width: 0;
 
 
 .blog {
-    position: relative;
-    width: 110px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .inner_blog {
     position: relative;
     width: 100%;
-    border: #03b150;
+    border: 2px solid #03b150;
     display: grid;
-    grid-template-columns: repeat(2, 200px) ;
-    grid-template-rows: repeat(2, 200px) ;
+    grid-template-columns: 500px 200px ;
+    grid-template-rows: 100px 200px ;
+}
+
+
+
+
+
+.inner_blog_header {
+    background-color: red;
+}
+
+.inner_blog_content {
+    background-color: green;
+}
+
+.inner_blog_img {
+    background-color: blue;
+    grid-area: 1 / 2 / 2 / 3;
 }
